@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #343434;
+    --secondary-color: #E6B31E;
+    --tertiary-color: #FCFAF1;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   font-family: Verdana, Tahoma, sans-serif; 
+   background-color: var(--primary-color);
+}
+
+h1{
+    font-size: 110px;
+    margin-top: 300px;
+}
+
+.hobbies {
+    margin-top: 200px;
+    *{
+        margin-top: 10px;
+    }
+}
+
+footer {
+    background-color: var(--secondary-color);
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+    padding-top: 200px;
+    padding-bottom: 125px;
+    a{
+        color: var(--primary-color);
+        text-decoration: none;
+    }
+    p{
+        font-size: 25px;
+        color: var(--primary-color);
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+footer div img {
+    width: 15%;
+    height: auto;
+}
